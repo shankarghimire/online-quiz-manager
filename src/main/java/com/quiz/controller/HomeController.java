@@ -1,4 +1,4 @@
-package com.quiz.controllers;
+package com.quiz.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,12 @@ public class HomeController {
 
     @GetMapping("/")
     public String goHome(){
-        return "index.html";
+        return "index";
     }
 
+
+    @GetMapping("/contact")
+    public String goContact(){
+        return "contact";
+    }
 }

@@ -43,6 +43,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="G:\SpringBoot-Projects\springrestapi"/>
+			<item value="G:\SpringBoot-Projects\online-exam\online-exam"/>
+			<item value="G:\SpringBoot-Projects\online-exam"/>
 			<item value="E:\Sheridan\Sheridan\3rd SemFall2020\Enterprise Java Development-PROG32758\Online-Movie-Ticket-Booking\Fall2020JavaFinalExam"/>
 		</list>
 	</section>

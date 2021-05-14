@@ -6,9 +6,11 @@ import com.quiz.repo.RoleRepository;
 import com.quiz.repo.UserRepository;
 import com.quiz.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -25,7 +27,7 @@ public class UserServiceImpl implements UserService {
 
 
         User local = this.userRepository.findByUserName(user.getUserName());
-        if(local !=null){
+        if(local != null){
             System.out.println("User is already there!");
             throw new Exception("User already exist!");
 
@@ -38,8 +40,6 @@ public class UserServiceImpl implements UserService {
             local = this.userRepository.save(user);
 
         }
-
-
-        return null;
+        return local;
     }
 }
