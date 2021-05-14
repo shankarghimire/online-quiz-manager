@@ -1,0 +1,5 @@
+package com.smartcontactmanager.controllers;
+
+public class HomeController {
+
+}
